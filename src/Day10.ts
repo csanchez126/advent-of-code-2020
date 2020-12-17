@@ -1,6 +1,5 @@
 /* eslint-disable no-case-declarations */
 import { readFileSync } from 'fs';
-import { arch } from 'os';
 
 const day10 = () => {
   const str = readFileSync('./src/inputs/day10Input.txt', 'utf8');
